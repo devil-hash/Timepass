@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    background-image: linear-gradient(-90deg, rgb(217, 255, 0), rgb(0, 255, 191));
+}
+header{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.155);
+}
+header h2{
+    margin-left: 10px;
+}
+header img{
+    margin:0px 0px 0px 30px ;
+}
+header a{
+    position: absolute;
+    left: 86%;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+header a:hover{
+    color: white;
+}
+table{
+    margin-left: 480px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.436);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.591);
+}
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 2px black solid;
+}
+button{
+    margin-left: 100px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px black solid;
+    font-size: 18px;
+    border-style: none;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke; 
+}
+table tr td{
+    padding: 15px;
+}
+.hint{
+    font-size: 15px;
+    color: rgb(0, 0, 255);
+    margin-left: 100px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

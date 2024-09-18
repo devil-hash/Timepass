@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Pass-Signup</title>
+    <link rel="stylesheet" href="../Css/signup.css">
+    <link rel="shortcut icon" href="../Media/Webicon.png" type="image/x-icon">
+    <script src="../Js/signup.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../Media/Webicon.png" height="50px">
+        <h2>Time Pass</h2>
+        <a href="../Html/login.html" id="login"><h3>Login</h3></a>
+    </header>
+    <p id="phnum_msg" style="position:absolute;
+                             margin: 220px 0 0 820px; 
+                             z-index: 1;  
+                             color: rgb(255, 0, 0);
+                             font-weight: 700;  
+                             font-size: 13px;"></p>
+    <p id="email_msg" style="position:absolute;
+                            margin: 290px 0 0 820px; 
+                            z-index: 1;  
+                            color: rgb(255, 0, 0);
+                            font-weight: 700;  
+                            font-size: 13px;"></p>
+    <p id="creapass_msg" style="position:absolute;
+                                margin: 360px 0 0 800px; 
+                                z-index: 1;  
+                                color: rgb(255, 0, 0);
+                                font-weight: 700;  
+                                font-size: 13px;"></p>
+    <p id="confirmpass_msg" style="position:absolute;
+                                   margin: 435px 0 0 820px; 
+                                   z-index: 1;  
+                                   color: rgb(255, 0, 0);
+                                   font-weight: 700;  
+                                   font-size: 13px;"></p>
+    <table>
+        <tr>
+            <td><label>Fullname</label></td>
+            <td><input type="text" placeholder="Enter your name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label>Phone Number</label></td>
+            <td><input type="text" placeholder="Enter your Phone number" id="phnumber">
+            </td>
+            
+        </tr>
+        <tr>
+            <td><label>Email ID</label></td>
+            <td><input type="email" placeholder="Enetr your emailid" id="mail"></td>
+        </tr>
+        <tr>
+            <td><label>Create Password</label></td>
+            <td><input type="password" placeholder="Create Password" id="createpass"></td>
+        </tr>
+        <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" placeholder="Repeat Password" id="confirmpass"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="hint">Password must contain Min 8 and Max 16 characters <br> (alphabets(Upper and Lower),numberic and special characters)</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button>Back</button><button  onclick="signupvalidation()">Confirm</button></td>
+        </tr>
+    
+    </table>
+    
+</body>
+</html>

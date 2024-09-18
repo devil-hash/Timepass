@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+    background-image: url(../Media/inetrfacebg.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+header{
+    display: flex;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(9, 5, 5, 0.192);
+    height: 50px;
+}
+header a{
+    padding-left: 10px;  
+}
+#logoimg{
+    margin:0px 0px 0px 30px ;
+}
+#profileimg{
+    position: absolute;
+    height: 50px;
+    margin-left: 93%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#timepass{
+    color: white;
+    font-size: 50px;
+    margin: 100px 0px 0px 600px;
+}
+#image{
+    height: 180px;
+    margin-right: 300px;
+}
+#image:hover{
+    box-shadow: 0px 0px 30px 30px rgb(0, 179, 255);
+    border-radius: 50%;
+}
+#logos{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+

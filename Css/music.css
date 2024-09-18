@@ -1,0 +1,154 @@
+body{
+    padding:0px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    background-image: url(../Media/musicbg.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+header a{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+header img{
+    margin:20px 0px 0px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+#profileimg{
+    position: absolute;
+    height: 50px;
+    margin-left: 93%;
+    margin-top: 20px; 
+    display: flex; 
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 30px;
+    color: rgba(248, 215, 1, 0.909);
+    margin-left: 50px;
+    background-color: black;
+    width: 270px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+#lyric{
+    width: 170px;
+    margin-top: 50px;
+}
+#aa{
+    margin-top: 50px;
+}
+.song1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.song2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.song3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.song1 img{
+    margin-top: 100px;
+}
+.musicnav img{
+    height: 80px;
+    width: 80px;
+    transition: 0.3s;
+}
+#amusic{
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#amusic label{
+    margin-left: 25px;
+}
+#amusic img{
+    margin: 10px;
+    border-radius: 50%;
+}
+#amusic img:hover{
+    height: 100px;
+    width: 100px;
+}
+#bmusic{
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+}
+#bmusic label{
+    margin-left: 25px;
+}
+#bmusic img{
+    margin: 10px;
+    border-radius: 50%;
+}
+#bmusic img:hover{
+    height: 100px;
+    width: 100px;
+}
+#cmusic{
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+}
+#cmusic label{
+    margin-left: 25px;
+}
+#cmusic img{
+    margin: 10px;
+    border-radius: 50%;
+}
+#cmusic img:hover{
+    height: 100px;
+    width: 100px;
+}
+label{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#extraimg{
+    position: absolute;
+    margin-left: 45%;
+    height: 550px;
+    margin-top: 100px;
+}
+#switchbtn{
+    padding: 10px;
+    font-size: 13px;
+    margin-left: 50px;
+    background: transparent;
+    border-style: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#switchbtn:hover{
+    background-color:white ;
+    color: black;
+}
+
+
+
+
+
+

@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Media/Movies/moviebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    display: flex;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+header a{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+header img{
+    margin:20px 0px 0px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+#profileimg{
+    position: absolute;
+    height: 50px;
+    margin-left: 93%;
+    margin-top: 20px; 
+    display: flex; 
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 380px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 20px 25px 50px rgba(0, 0, 0, 0.8);
+    transition: ease-in-out 0.3s;
+}
+.container:hover{
+    border: 10px solid white;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.container2{
+    width: 670px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 1150px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 20px 25px 50px rgba(0, 0, 0, 0.8);
+    transition: ease-in-out 0.3s;
+}
+.container2:hover{
+    border: 10px solid white;
+}
+.wrapper2{
+    width: 100%;
+    display: flex;
+    animation: slide2 16s infinite;
+}
+@keyframes slide2{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+#images{
+    width: 100%;
+}
+h3{
+    font-family: monospace;
+    font-size: 22px;
+    background-color: white;
+    color: blueviolet;
+    width: 155px;
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+}
+#h1{
+    margin:110px 0 0 30px ;
+}
+#h2{
+    margin: 110px 0 0 780px;
+}
+.dropdown{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+   
+}
+select{
+    padding: 7px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+select option{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+button{
+    padding: 6px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+#marvel1{
+    width: 200px;
+    height: 200px;
+}
+.marvel{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 93%;
+    left: 3%;
+}
+.marvel img{
+    height: 220px;
+    padding-left: 50px;
+    transition: 0.3s;
+}
+.marvel img:hover{
+    height:230px ;
+}
+#marvelcard{
+    color: white;
+    background-color: rgb(56, 14, 96);
+    position: absolute;
+    top: 85%;
+    left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.comedy img{
+    height: 220px;
+    padding-left: 53px;
+    transition: 0.3s;
+}
+.comedy{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 133%;
+        left: 3%;
+}
+.comedy img:hover{
+    height:230px ;
+}
+#comedy1{
+    width: 200px;
+    height: 200px;
+}
+#comedycard{
+    color: white;
+    background-color: rgb(56, 14, 96);
+    position: absolute;
+    top: 125%;
+    left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.thriller{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 175%;
+    left: 7%;
+}
+.thriller img{
+    height: 220px;
+    transition: 0.3s;
+}
+.thriller img:hover{
+    height:250px ;
+}
+#thrillercard{
+    color: white;
+    background-color: rgb(56, 14, 96);
+    position: absolute;
+    top: 167%;
+    left: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.movie{
+    padding-bottom: 20px;
+}
+#musicbtn{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    background-color: white;
+    color: black;
+    border-style:none ;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+#musicbtn:hover{
+    background-color:black ;
+    color: white;
+}
+
+
